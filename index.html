@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Listing</title>
+    <style>
+        body {
+            height: 150vh;
+        }
+
+        .main {
+            height: 100%;
+            text-align: center;
+        }
+
+        .flex {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        h2 {
+            margin-bottom: 0;
+        }
+
+         hr {
+            width: 25%;
+            border: 3px solid teal;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(7, 1fr);
+            grid-template-rows: repeat(11, 1fr);
+            height: 70%;
+            width: 90%;
+            border: 2px solid grey;
+        }
+
+        .day {
+            height: 100%;
+            width: 100%;
+            background-color: teal;
+            color: white;
+
+        }
+
+        .item {
+            height: 100%;
+            width: 100%;
+            border: 2px solid grey;
+            box-sizing: border-box;
+
+        }
+
+        .white {
+            border: 2px solid white;
+            
+        }
+
+        .width {
+            width: 100%;
+        }
+
+        .text-left {
+            text-align: left;
+        }
+
+        .no-margin {
+            margin: 0;
+        }
+
+        .cyan {
+            background-color: cyan;
+        }
+
+        .orange {
+            background-color: rgb(224, 175, 85);
+        }
+
+        .red {
+            background-color: rgb(225, 92, 92);
+        }
+
+        .green {
+            background-color: rgb(66, 224, 26);
+        }
+
+        .yellow {
+            background-color: rgb(185, 185, 15);
+        }
+
+        .activity {
+            height: 50%;
+            width: 100%;
+        }
+
+        p {
+            margin-left: 10px;
+        }
+
+        @media(max-width: 680px) {
+            h3 {
+                font-size: 12px;
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <div class="main flex">
+        <h1>Business Hospitality Management Event Calendar</h1>
+        <h2>August 2023</h2>
+        <hr/>
+        <div class="grid">
+            <div class="day flex">
+                <h3>Sunday</h3>
+                <hr  class="white width" />
+            </div>
+            <div class="day flex">
+                <h3>Monday</h3>
+                <hr class=" white width" />
+            </div>
+            <div class="day flex">
+                <h3>Tuesday</h3>
+                <hr  class="white width" />
+            </div>
+            <div class="day flex">
+                <h3>Wednesday</h3>
+                <hr class=" white width" />
+            </div>
+            <div class="day flex">
+                <h3>Thursday</h3>
+                <hr  class="white width" />
+            </div>
+            <div class="day flex">
+                <h3>Friday</h3>
+                <hr class=" white width" />
+            </div>
+            <div class="day flex">
+                <h3>Saturday</h3>
+                <hr style="width: 98%;"  class="white" />
+            </div>
+            <div class="item text-left">
+
+            </div>
+            <div class="item text-left">
+                <p>1</p>
+            </div>
+            <div class="item text-left">
+                <p>2</p>
+            </div>
+            <div class="item text-left">
+                <p>3</p>
+            </div>
+            <div class="item text-left">
+                <p>4</p>
+            </div>
+            <div class="item text-left">
+                <p>5</p>
+            </div>
+            <div class="item text-left">
+                <p>6</p>
+        </div>
+        <div class="item">
+
+        </div>
+        <div class="item flex cyan">
+           <h3 class="no-margin">The Hotel</h3>
+           <h3 class="no-margin">Show USA</h3>
+        </div>
+        <div class="item">
+
+        </div>
+        <div class="item flex orange">
+            <h3 class="no-margin">The Hotel</h3>
+           <h3 class="no-margin">Industry Webinar</h3>
+        </div>
+        <div class="item">
+
+        </div>
+        <div class="item flex red">
+            <h3 class="no-margin">Online</h3>
+           <h3 class="no-margin">Marketing Trends</h3>
+        </div>
+        <div class="item">
+
+        </div>
+        <div class="item text-left">
+             <p>7</p>
+        </div>
+        <div class="item text-left">
+            <p>8</p>
+        </div>
+        <div class="item text-left">
+            <p>9</p>
+        </div>
+        <div class="item text-left">
+            <p>10</p>
+        </div>
+        <div class="item text-left">
+            <p>11</p>
+        </div>
+        <div class="item text-left">
+            <p>12</p>
+        </div>
+        <div class="item text-left">
+            <p>13</p>
+    </div>
+    <div class="item">
+
+    </div>
+    <div class="item flex red">
+       <h3 class="no-margin">Speciality And</h3>
+       <h3 class="no-margin">Fine Food Event I</h3>
+    </div>
+    <div class="item">
+
+    </div>
+    <div class="item flex cyan">
+        <h3 class="no-margin">Star</h3>
+       <h3 class="no-margin">European Conference</h3>
+    </div>
+    <div class="item">
+
+    </div>
+    <div class="item flex">
+    </div>
+    <div class="item flex orange">
+        <h3 class="no-margin">Innovation</h3>
+        <h3 class="no-margin">Conference</h3>
+    </div>
+    <div class="item text-left">
+        <p>14</p>
+   </div>
+   <div class="item text-left">
+       <p>15</p>
+   </div>
+   <div class="item text-left">
+       <p>16</p>
+   </div>
+   <div class="item text-left">
+       <p>17</p>
+   </div>
+   <div class="item text-left">
+       <p>18</p>
+   </div>
+   <div class="item text-left">
+       <p>19</p>
+   </div>
+   <div class="item text-left">
+       <p>20</p>
+   </div>
+   <div class="item">
+
+   </div>
+   <div class="item flex green">
+      <h3 class="no-margin">US Hotel</h3>
+      <h3 class="no-margin">Conference</h3>
+   </div>
+   <div class="item">
+
+   </div>
+   <div class="item flex">
+   </div>
+   <div class="item flex red">
+    <h3 class="no-margin">HITECH</h3>
+    <h3 class="no-margin">Orlando I</h3>
+   </div>
+   <div class="item">
+   </div>
+   <div class="item flex">
+
+   </div>
+    <div class="item text-left">
+        <p>21</p>
+   </div>
+   <div class="item text-left">
+       <p>22</p>
+   </div>
+   <div class="item text-left">
+       <p>23</p>
+   </div>
+   <div class="item text-left">
+       <p>24</p>
+   </div>
+   <div class="item text-left">
+       <p>25</p>
+   </div>
+   <div class="item text-left">
+       <p>26</p>
+   </div>
+   <div class="item text-left">
+       <p>27</p>
+   </div>
+   <div class="item flex">
+   
+ </div>
+   <div class="item flex">
+      <div class="activity flex green">
+       <h3>Activity A</h3>
+      </div>
+      <div class="activity flex orange">
+        <h3>Activity G</h3>
+      </div>
+   </div>
+   <div class="item flex">
+    <div class="activity flex red">
+     <h3>Activity B</h3>
+    </div>
+    <div class="activity flex yellow">
+      <h3>Activity H</h3>
+    </div>
+ </div>
+ <div class="item flex">
+    <div class="activity flex orange">
+     <h3>Activity C</h3>
+    </div>
+    <div class="activity flex green">
+      <h3>Activity I</h3>
+    </div>
+ </div>
+ <div class="item flex">
+  <div class="activity flex yellow">
+   <h3>Activity D</h3>
+  </div>
+  <div class="activity flex cyan">
+    <h3>Activity I</h3>
+  </div>
+</div>
+ <div class="item flex">
+      <div class="activity flex green">
+       <h3>Activity E</h3>
+      </div>
+      <div class="activity flex yellow">
+        <h3>Activity K</h3>
+      </div>
+   </div>
+   <div class="item flex">
+    <div class="activity flex red">
+     <h3>Activity F</h3>
+    </div>
+    <div class="activity flex red">
+      <h3>Activity L</h3>
+    </div>
+ </div>
+     <div class="item text-left">
+        <p>28</p>
+   </div>
+   <div class="item text-left">
+       <p>29</p>
+   </div>
+   <div class="item text-left">
+       <p>30</p>
+   </div>
+   <div class="item text-left">
+       <p>31</p>
+   </div>
+   <div class="item text-left">
+    
+   </div>
+   <div class="item text-left">
+      
+   </div>
+   <div class="item text-left">
+       
+   </div>
+   <div class="item text-left">
+       
+   </div>
+   <div class="item flex orange">
+    <h3 class="no-margin">HITECH</h3>
+    <h3 class="no-margin">Orlando II</h3>
+   </div>
+   <div class="item flex cyan">
+    <h3 class="no-margin">Speciality And</h3>
+    <h3 class="no-margin">Fine Food Event II</h3>
+   </div>
+   <div class="item text-left">
+       
+   </div>
+  </div>
+</body>
+</html>
